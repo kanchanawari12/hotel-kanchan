@@ -1,0 +1,8 @@
+.contain{
+    border:2px solid black;
+    width:350px;
+    margin:100px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
