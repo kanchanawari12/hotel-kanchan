@@ -1,8 +1,58 @@
 .contain{
-    border:2px solid black;
+    border:2px solid #034C53;
     width:350px;
     margin:100px;
     display:block;
     margin-left:auto;
     margin-right:auto;
+    border-radius:15px;
+    background-color: #F38C79;
+    
 }
+
+.loginlogo{
+    height:150px;
+    border:2px solid black;
+    margin-left:27%;
+    border-radius:50%;
+}
+.input{
+    margin-left:60px;
+    padding:10px 20px;
+    margin-top:40px;
+    font-size:15px;
+    text-align: center;
+}
+
+.loginbtn{
+    display:block;
+    padding:10px 15px;
+    border-radius: 15px;
+    margin-top:20px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 15px;
+    cursor:pointer;
+
+}
+
+.contain:hover{
+    box-shadow:0 0 5px 2px gray;
+}
+
+.loginbtn:hover{
+    box-shadow:0 0 5px 2px gray;
+
+}
+body{
+    padding: 0;
+    margin:0;
+    background-image: url(../img/icons/water.jpg);
+
+}
+
+/* .loginpage{
+    background-image: url(../img/icons/water.jpg);
+    height:100%;
+    width:100%;
+} */
