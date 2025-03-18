@@ -1,0 +1,66 @@
+.barriecito-regular {
+    font-family: "Barriecito", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.choose-kitchen{
+    background-color:#F38C79;
+    border:2px solid #007074;
+    padding:10px;
+}
+
+.healthyfood{
+    background-color:#FFC1B4;
+    width:300px;
+    border:3px solid #007074;
+    margin-left: 25px;
+}
+.healthyfood-logo{
+    height:100px;
+    margin-left:30%;
+    border:2px black solid;
+    border-radius:15px;
+    margin-top:10px;
+}
+
+.freedelivery{
+    background-color:#FFC1B4;
+    border:solid 3px #007074;
+    width:300px;
+    margin-left:25px;
+}
+
+.deliverylogo{
+    height:100px;
+    margin-left:30%;
+    border:2px solid black;
+    border-radius:10px;
+    margin-top:10px;
+
+}
+.container{
+    display:flex;
+    justify-content: space-around;
+}
+
+.btn{
+    margin:40px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding:15px 20px;
+    background-color: #F38C79;
+    border:1px solid #034C53;
+    border-radius:25px;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    box-shadow:0 0 5px 2px gray;
+    
+}
+
+.healthyfood:hover{
+    box-shadow:0 0 5px 2px gray;
+}
